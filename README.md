@@ -2,7 +2,7 @@
 
 ## Setup
 
-git clone https://github.com/dhiyaulhaqq/docker-apache-hello-world.git app
+git clone https://github.com/dhiyaulhaqq/ajax.git app
 
 cd app
 
