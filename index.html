@@ -14,7 +14,7 @@
     
     <button id="btn"> Call Ajax </button>
 
-    <div id="result"> Result goes here.. </div>
+    <p id="result"> Result goes here.. </p>
     
   </body>
   
@@ -32,6 +32,7 @@
     btn.addEventListener("click", makeRequest);
     
     function makeRequest {
+      alert();
       var req = new XMLHttpRequest();
       req.addEventListener("load", res);
       req.open("GET", "http://www.example.org/example.txt");
